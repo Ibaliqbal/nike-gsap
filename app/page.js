@@ -5,6 +5,7 @@ import HeroSection from "./_components/hero-section";
 import PopularProductsSection from "./_components/popular-products-section";
 import UpcomingSection from "./_components/upcoming-section";
 import AthletsSection from "./_components/athlets-section";
+import Footer from "./_components/footer"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <PopularProductsSection />
       <UpcomingSection />
       <AthletsSection />
+      <Footer />
     </SmoothScroll>
   );
 }

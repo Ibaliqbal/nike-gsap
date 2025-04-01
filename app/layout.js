@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Shadows_Into_Light, Montserrat, Bebas_Neue } from "next/font/google";
+import DesktopAlert from "./_components/desktop-alert";
 
 const shadows = Shadows_Into_Light({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
         className={`${montserrat.variable} ${bebas.variable} ${shadows.variable} body`}
       >
         <main className="main-page">{children}</main>
+        <DesktopAlert />
       </body>
     </html>
   );

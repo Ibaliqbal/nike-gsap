@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useRef, useState } from "react";
-import { aboutData } from "../config/constant";
+import { aboutData } from "../../config/constant";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);

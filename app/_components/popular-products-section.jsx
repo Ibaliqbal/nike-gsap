@@ -2,8 +2,8 @@
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { popularProducts } from "../config/constant";
-import { convertToDolar } from "../utils/helper";
+import { popularProducts } from "../../config/constant";
+import { convertToDolar } from "../../utils/helper";
 import Button from "./button";
 import ParallaxImage from "./parallax-image";
 import { useRef } from "react";

@@ -2,7 +2,7 @@
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { athlets } from "../config/constant";
+import { athlets } from "../../config/constant";
 import ParallaxImage from "./parallax-image";
 import Button from "./button";
 import { ScrollTrigger } from "gsap/all";

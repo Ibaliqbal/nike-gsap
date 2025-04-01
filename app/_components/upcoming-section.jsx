@@ -3,8 +3,8 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
-import { upcomingProducts } from "../config/constant";
-import { convertToDolar } from "../utils/helper";
+import { upcomingProducts } from "../../config/constant";
+import { convertToDolar } from "../../utils/helper";
 import ParallaxImage from "./parallax-image";
 import Button from "./button";
 import { ScrollTrigger } from "gsap/all"; // Import all plugins from gsap/all t
